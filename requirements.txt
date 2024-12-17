@@ -1,11 +1,11 @@
 # Core modules (mandatory)
-jupyterlite-core==0.4.0
-jupyterlab~=4.2.4
-notebook~=7.2.1
+jupyterlite-core==0.4.5
+jupyterlab~=4.2.5
+notebook~=7.2.2
 
 
 # Python kernel (optional)
-jupyterlite-pyodide-kernel==0.4.1
+jupyterlite-pyodide-kernel==0.4.5
 
 # Language support (optional)
 jupyterlab-language-pack-es-ES
@@ -29,7 +29,29 @@ ipycanvas>=0.9.1
 # Python: plotting libraries (optional)
 plotly>=5,<6
 matplotlib
+altair==5.3.0
 
 # Python: processing
 numpy>=2
 pandas>=2
+cartopy==0.23.0
+contourpy==1.2.1
+duckdb==1.0.0
+fastparquet==2024.2.0
+fiona==1.9.5
+geopandas==0.14.3
+lxml==5.2.1
+netcdf4==1.6.5
+pillow==10.2.0
+pyproj==3.6.1
+pyshp==2.3.1
+requests==2.31.0
+scikit-image==0.23.2
+scikit-learn==1.4.2
+scipy==1.12.0
+shapely==2.0.2
+statsmodels==0.14.2
+sympy==0.12
+xarray==2024.3.0
+xgboost==2.1.0.dev0
+zarr==2.16.0
