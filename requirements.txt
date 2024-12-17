@@ -34,6 +34,7 @@ altair==5.3.0
 # Python: processing
 numpy==1.26.4
 pandas>=2
+pyarrow==17.0.0
 cartopy==0.23.0
 contourpy==1.2.1
 duckdb==1.0.0
